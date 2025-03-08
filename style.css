@@ -165,6 +165,7 @@ nav{
     font-weight: bold;
     background: linear-gradient(45deg, #ff00ff, #ff8800);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .events{
