@@ -278,7 +278,14 @@ nav{
     .hero-image {
         height: 25rem;
         width: 100%;
-        left: 10px;
+    }
+
+    .hero-image{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 20;
+        height: 32rem;
     }
 
 }
