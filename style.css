@@ -281,14 +281,6 @@ nav{
         width: 100%;
     }
 
-    .hero-image{
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        z-index: 20;
-        height: 32rem;
-    }
-
 }
 
 @media (max-width: 768px) {
