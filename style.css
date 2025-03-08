@@ -35,18 +35,7 @@ nav{
     font-size: 30px;
 }
 
-.fa-arrow-up{
-    font-size: 20px;
-    color: white;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #fa5d02;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+
 
 .hero {
     padding: 60px 20px;
@@ -328,6 +317,8 @@ nav{
 }
 
 @media (max-width: 576px) {
+
+   
 
     .nav-logo{
         height: 100%;
