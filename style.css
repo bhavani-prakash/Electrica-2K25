@@ -244,12 +244,95 @@ nav{
     transition: transform 0.2s, box-shadow 0.2s;
     width: 110px;
     color: whitesmoke;
-    gap: 1rem;
+    
 }
 .register:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+.fa-pencil-square{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+footer{
+    background:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+}
+.footer-heading{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: rgb(48, 87, 63);
+    margin: 1rem;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+}
+.media-icons{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem;
+    flex-direction: row;
+}
+.media-icons a{
+    color: rgb(201, 62, 37);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    box-shadow: 0px 0px 10px rgba(238, 7, 188, 0.5);
+    border-radius: 50%;
+}
+
+#quick-links a{
+    color: rgb(163, 161, 161);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;  
+}
+#quick-links a:hover{
+    color: #fa5d02;
+}
+
+#contact-info a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;  
+}
+#contact-info a:hover{
+    color: #fa5d02;
+}
+
+.copy-right{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 46, 35);
+    margin-bottom: 20px;
+    height: 3rem;
+}
+
+
+
 
 /* Responsive styles */
 
@@ -381,5 +464,7 @@ nav{
         font-weight: 300;
         margin: 0.5rem;
     }
+
+    
 
 }
