@@ -187,7 +187,6 @@ nav{
     padding: 0.3rem;
     box-shadow: 10px 10px 10px -5px rgb(84, 90, 26);
     transition: transform 0.2s, box-shadow 0.2s;
-    color: black;
 }
 
 .event-img{
@@ -211,13 +210,13 @@ nav{
     gap: 20px;
     justify-content: center;
     align-items: center;
+    color: rgb(19, 7, 7);
 }
 
 .event-data .event-title{
     font-size: 1.2rem;
     font-weight: 600;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
     text-decoration: underline;
 }
 .event-card:hover {
@@ -343,16 +342,14 @@ footer{
 #quick-links a:hover{
     color: #fa5d02;
 }
-
-#contact-info a{
-    color: white;
+#contact-info a, #contact-info p{
+    color: rgb(163, 161, 161);
     text-decoration: none;
-    font-size: 1rem;
-    font-weight: 300;  
 }
 #contact-info a:hover{
     color: #fa5d02;
 }
+
 
 .copy-right{
     width: 100%;
@@ -363,9 +360,7 @@ footer{
     margin-bottom: 20px;
     height: 3rem;
 }
-
-
-
+ 
 
 /* Responsive styles */
 
@@ -434,8 +429,6 @@ footer{
 
 @media (max-width: 576px) {
 
-   
-
     .nav-logo{
         height: 100%;
         margin-left: 0;
@@ -481,10 +474,10 @@ footer{
     }
 
     .event-card {
-       
         display: flex;
         flex-direction: column;
         gap: 5px;
+        color: black;
     }
 
     .event-data{
@@ -507,19 +500,20 @@ footer{
         width: 100%;
         padding: 0.2rem;
     }
+
+    .footer-info{
+        margin: 0.5;
+    }
     #quick-links {
         font-size: 0.6rem;
     }
-    #contact-info h2{
-        font-size: 1rem;
+
+    #contact-info { 
+        font-size: 0.9rem;
     }
-    #contact-info a,p{
-        font-size: 0.8rem;
-        color: #bfc4be;
-    }
+
     .copy-right h3{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     
-
 }
